@@ -1,0 +1,73 @@
+.masterContainer {
+    display:flex;
+    justify-content:center;
+}
+
+div {
+    margin-bottom:2vh;
+    margin-left:1vh;
+}
+.people {
+    width:25vh;
+    height:75vh;
+    background-color:#363636;
+}
+
+.tBUni {
+    width:25vh;
+    height:13.125vh;
+    background-color:#fcff57;
+}
+
+.gh {
+    width:25vh;
+    height:37.5vh;
+    background-color:hotpink;
+}
+
+.top10 {
+    width:25vh;
+    height:50.625vh;
+    background-color:#5fd2ff;
+}
+
+.stars {
+    width:25vh;
+    height:37.5vh;
+    background-color:#fcff57;
+}
+
+.W {
+    width:25vh;
+    height:35.5vh;
+    background-color:#fcff57;
+}
+
+.tb1 {
+    width:25vh;
+    height:13.125vh;
+    background-color:#d2d2d2;
+}
+
+.fifty {
+    width:25vh;
+    height:75vh;
+    background-color:#fcff57;
+}
+
+.tb2 {
+    width:25vh;
+    height:13.125vh;
+    background-color:#fcff57;
+}
+
+.column1 {}
+.column2 {}
+.column3 {}
+.column4 {}
+
+
+
+div:not(.masterContainer):not(.column1):not(.column2):not(.column3):not(.column4):hover {
+    opacity:50%;
+}
